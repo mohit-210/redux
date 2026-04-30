@@ -1,0 +1,116 @@
+.counter-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  color: white;
+}
+
+.counter-container h1 {
+  margin: 0 0 20px;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.counter-display {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 25px;
+}
+
+.count-value {
+  font-size: 5rem;
+  font-weight: 700;
+  display: block;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.btn {
+  padding: 12px 24px;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:active {
+  transform: translateY(0);
+}
+
+.btn-decrement {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.btn-decrement:hover {
+  background-color: #ee5a5a;
+}
+
+.btn-reset {
+  background-color: #ffd93d;
+  color: #333;
+}
+
+.btn-reset:hover {
+  background-color: #f0c929;
+}
+
+.btn-increment {
+  background-color: #6bcb77;
+  color: white;
+}
+
+.btn-increment:hover {
+  background-color: #5bb967;
+}
+
+.custom-amount {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.custom-amount label {
+  font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.custom-amount input {
+  width: 80px;
+  padding: 8px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.btn-custom {
+  background-color: #4facfe;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: #3d9be0;
+}
